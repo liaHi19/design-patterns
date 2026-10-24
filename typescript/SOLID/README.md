@@ -12,4 +12,8 @@
 
 ### Closed for modification: once software entity is developed and has been reviewed and tested, the code should not be touched(to correct the software behavior).
 
-### "If S is subtype of T, then objects of type T in program may be replaced with objects with type S without altering any of desirable properties of that program" Liskov Substitution Principle
+### "If S is subtype of T, then objects of type T in program may be replaced with objects with type S without altering any of desirable properties of that program" - Liskov Substitution Principle
+
+### "No client should be forced to depend on interfaces they do not use" - interface segregation principle
+
+    - don't add additional functionality to an existing interface, by adding new methods. Instead, create a new interface
