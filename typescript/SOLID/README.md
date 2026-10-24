@@ -17,3 +17,5 @@
 ### "No client should be forced to depend on interfaces they do not use" - interface segregation principle
 
     - don't add additional functionality to an existing interface, by adding new methods. Instead, create a new interface
+
+### "High level modules should not depend on low level modules. Both should depend on abstractions. Abstraction should not depend on details. Details should depend on abstractions" - dependency inversion principle
