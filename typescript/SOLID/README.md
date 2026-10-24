@@ -11,3 +11,5 @@
 ### Open for extension: the behavior of software entity can be extended, that is, we should be able to add new feature behavior to it.
 
 ### Closed for modification: once software entity is developed and has been reviewed and tested, the code should not be touched(to correct the software behavior).
+
+### "If S is subtype of T, then objects of type T in program may be replaced with objects with type S without altering any of desirable properties of that program" Liskov Substitution Principle
